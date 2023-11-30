@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto&display=swap');
+body{font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif; font-size: 16px; color:#353535; margin: 0 auto}
+header{width:100%; height: 50px}
+.banner{width:100%;min-height:300px }
+.logo{padding-top:12px; padding-left: 20px }
+.menu{padding:18px}
+.menu ul{margin: 0; padding: 0;list-style: none;display: flex}
+.menu ul li a{text-decoration: none;padding: 15px 15px;color:#353535; text-transform: uppercase;}
+.menu ul li a:hover{color: white; background-color: #96563A ; border-radius:30px}
+.other{padding:18px}
+.w-34{ width: 34%; padding:15px}
+.text-do{color:darkred}
+.vien{border: 1px solid #96563A;padding: 15px ; border-radius: 10px; margin: 30px; position:relative;overflow:hidden}
+
+
+.icon{position:absolute;width:80%;height:40px;left: 10%;top:-12%; display:flex;justify-content:space-around;transition:all 1s}
+.icon a{width:40px;height:40px;background-color:#DBDBDB; border-radius: 50%; display:flex;justify-content:center; align-items: center;text-decoration: none;color:darkred}
+.icon a:hover{background-color: darkred;color:white}
+.vien:hover .icon{top:40%}
+.sp{padding: 0 20px}
+.gachchan{border-bottom: 2px solid darkred }
+.vien-trang{border: 1px solid #5E5E5E;padding: 15px ; border-radius: 10px; margin: 30px}
+
+#product{width:100%; min-height:600px; background: url("../images/bg2.png"); background-repeat: repeat;background-size: cover; background-position: center bottom}
+.vien-trang a{text-decoration: none; color:darkred}
+.vien-trang a:hover{color:white}
+.pt-30{padding-top:30px}
+
+#contact{width: 100%;min-height: 300px;background: url("../images/Banner2.png"); background-repeat: no-repeat;background-size: cover; background-position: center}
+.bong{width: 100%;min-height: 300px;background: #ffffff1a;border-top:1px solid  #ffffff80; border-left:1px solid  #ffffff4d; border-right: 1px solid  #ffffff4d;border-bottom: 1px solid  #ffffff33;border-radius: 15px;box-shadow: 0px 26px 42px gray; padding: 40px }
+.form-control{padding: 5px; margin-bottom: 8px; width: 100%}
+
+
+
+
+
+
+
+
+
+
+
+#slide1 .owl-dots{ position:absolute; bottom: 10px; left:40%;}
+#slide1 .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#96563A;
+      text-decoration: none; }
+
+
+
